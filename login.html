@@ -8,6 +8,8 @@
   <script defer src="login.js"></script>
 </head>
 
+<!--head zawiera informacje na temat naszej strony, takie jak zastosowany system kodowania, jej tytul, odnosniki do plikow css i js ktore wykorzystamy-->
+
 <body>
   <main id="main-holder">
     <h1 id="login-header">Login</h1>
@@ -16,11 +18,15 @@
     	<p id="login-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
     </div>
 
+<!--body zawiera informacje widoczne na naszej stronie, takie jak oczekiwana zawartosc poszczegolnych pol, czy tresc ostrzezenia widocznego przy bledzie wpisanych danych -->
+
     <form id="login-form">
       <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
       <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
       <input type="submit" value="Login" id="login-form-submit">
    </form>
+
+<!--form zawiera informacje o naszym formularzu logowania i zawartych w nim danych-->
 
   </main>
 </body>
