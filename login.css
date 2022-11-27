@@ -9,8 +9,10 @@ body {
   display: grid;
   justify-items: center;
   align-items: center;
-  background-color: #F3FF33;
+  background-color: #00a6ff;
 }
+
+/*informacje na temat tla strony*/
 
 #main-holder {
   width: 50%;
@@ -18,10 +20,12 @@ body {
   display: grid;
   justify-items: center;
   align-items: center;
-  background-color: white;
+  background-color: #74ceff;
   border-radius: 7px;
   box-shadow: 0px 0px 5px 2px black;
 }
+
+/*informacje na temat koloru glownego okna logowania na naszej stronie*/
 
 #login-error-msg-holder {
   width: 100%;
@@ -30,6 +34,8 @@ body {
   justify-items: center;
   align-items: center;
 }
+
+/*informacje na temat polozenia alertu uzycia blednych danych do logowania*/
 
 #login-error-msg {
   width: 23%;
@@ -43,6 +49,8 @@ body {
   background-color: #e58f8f;
   opacity: 0;
 }
+
+/*informacje na temat wygladu alertu uzycia blednych danych do logowania*/
 
 #error-msg-second-line {
   display: block;
@@ -59,6 +67,8 @@ body {
   color: #3a3a3a;
 }
 
+/*informacje na temat polozenia pola loginu*/
+
 .login-form-field {
   border: none;
   border-bottom: 1px solid #3a3a3a;
@@ -67,6 +77,8 @@ body {
   outline: none;
   padding: 0px 0px 5px 5px;
 }
+
+/*informacje na temat wygladu pola logowania*/ 
 
 #login-form-submit {
   width: 100%;
@@ -79,3 +91,5 @@ body {
   cursor: pointer;
   outline: none;
 }
+
+/*informacje na temat komunikatu o zalogowaniu sie*/
